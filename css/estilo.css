@@ -20,5 +20,35 @@ a {
   font-family: 'Lato', sans-serif;
   background-color: red;
   padding: 1em;
+/*
+box-sizing
+hover
+  exemplo: .menu_item1:hover{background-color:purple;}
+  obs.: esta caindo em desuso por causa dos dispositivos touch
+animation
+margin auto
+  uso de margin auto:
+*/
 
+#rodape_container{
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+#rodape_item1{
+  background-color: blue;
+  font-weight: bold;
+
+}
+
+#rodape_item2{
+  background-color: green;
+}
+
+#rodape_item3{
+  background-color: yellow;
 }
