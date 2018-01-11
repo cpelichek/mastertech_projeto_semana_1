@@ -7,3 +7,26 @@ animation
 margin auto
   uso de margin auto:
 */
+
+#rodape_container{
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+#rodape_item1{
+  background-color: blue;
+  font-weight: bold;
+
+}
+
+#rodape_item2{
+  background-color: green;
+}
+
+#rodape_item3{
+  background-color: yellow;
+}
