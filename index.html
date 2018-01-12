@@ -9,19 +9,17 @@
     <link rel="stylesheet" href="css/estilo.css">
   </head>
   <body>
-
     <div class="container" id="menu_container">
-      <div class="container botao" id="menu_item1">
+      <div class="container" id="menu_item1">
         <a href=".manchete_container">link para manchete</a>
       </div>
-      <div class="container botao" id="menu_item2">
-
+      <div class="container" id="menu_item2">
         <a href=".conteudo_container2">link para conteudo 1</a>
       </div>
       <div class="container" id="menu_item3">
         <a href=".conteudo_container3">link para conteudo 2</a>
       </div>
-      <div class="container botao" id="menu_item4">
+      <div class="container" id="menu_item4">
         <a href=".rodape_container">link para conteudo rodape</a>
       </div>
     </div>
@@ -60,15 +58,12 @@
     </div>
     <!-- <div class="conteudo_container3">
       <div class="container" id="conteudo_item1">
-
       </div>
       <div class="container" id="conteudo_item2">
-
       </div>
     </div>
     <div class="container" id="conteudo_container4">
       <div id="conteudo_item1">
-
       </div>
       <div class="container" id="conteudo_item2">
       </div>
@@ -79,16 +74,13 @@
     <div class="container" id="rodape_container">
       <!-- aplicar css responsivo aos items -->
       <div class="container" id="rodape_item1">
-        <p>Rua aleatória, 001 </p>
-        <p>Centro, São Paulo - SP</p>
         <!-- horario de funcionamento, talvez endereco -->
       </div>
       <div class="container" id="rodape_item2">
         <!-- mapa para chegar ao local (incorporar) -->
-        <iframe width="500" height="200" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.168206794527!2d-46.656461084971234!3d-23.562401567515977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8fd288145%3A0x4fe19f27924382d0!2sAv.+Paulista%2C+1374+-+Bela+Vista%2C+S%C3%A3o+Paulo+-+SP%2C+01310-100!5e0!3m2!1spt-BR!2sbr!4v1515663190969" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.168206794527!2d-46.656461084971234!3d-23.562401567515977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8fd288145%3A0x4fe19f27924382d0!2sAv.+Paulista%2C+1374+-+Bela+Vista%2C+S%C3%A3o+Paulo+-+SP%2C+01310-100!5e0!3m2!1spt-BR!2sbr!4v1515663190969" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
       <div class="container" id="rodape_item3">
-      <iframe src="data:image/png;base64,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" </iframe>
         <!-- social midia (icone+link) -->
       </div>
     </div>
